@@ -1,8 +1,6 @@
 # HSC IMAGE TOOL
 
-This tool can bes used to get bulk rgb images from HSC. This is a fork of the official PD3 data access tool with added multi-threaded support.
-
-Multi threading helps to speed up the image genration task, and is particularly useful when dealing with large amount of sources.
+This tool retrieves bulk RGB images from HSC. It’s a fork of the official PD3 data access tool, enhanced with multi-threaded support to accelerate image generation—especially when processing a large number of sources.
 
 Original tool:
 [PD3 Official Data Access Tool](https://hsc-gitlab.mtk.nao.ac.jp/ssp-software/data-access-tools/-/tree/master/pdr3/colorPostage)
