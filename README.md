@@ -25,6 +25,8 @@ cat > coords.txt <<EOT
 33.996636    -5.008742       j.png
 EOT
 
+pip install -r requirements.txt
+
 python colorPostage.py --user YOUR_ACCOUNT --outDir pngs coords.txt
 
 
