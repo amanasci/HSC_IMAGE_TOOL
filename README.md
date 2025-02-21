@@ -27,7 +27,7 @@ EOT
 
 pip install -r requirements.txt
 
-python colorPostage.py --user YOUR_ACCOUNT --outDir pngs coords.txt
+python get_image.py --user YOUR_ACCOUNT --outDir pngs coords.txt
 
 
 ```
